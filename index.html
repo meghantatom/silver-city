@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Silver City Life</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <h2>Silver City Form</h2>
+    <p>Please fill out this form to help us improve our city life!</p>
+    <form name="formtest" method="post" action="https://elearn.usu.edu/courses/itls-5265/forms/form_results.php">
+        <!-- Put your form code here. -->
+<div id="primary">
+    <label for="primary">Why are you in Silver City?</label><br>
+        <input type="radio" name="primary" value="resident" checked> I am a resident of Silver City<br>
+        <input type="radio" name="primary" value="work"> I work in Silver City<br>
+        <input type="radio" name="primary" value="visit"> I visit Silver City to shop or visit businesses<br>
+         <input type="radio" name="primary" value="tourist"> Tourist-Vacation<br>
+        <input type="radio" name="primary" value="Other"> Other<br>
+        </div>  
+    <br><br>
+<div id="zip">
+        <label for="zip"> What is your zip code?</label><br>
+    <input type="text" name="zipcode">
+        </div>
+    <br><br>
+<div id="attractive">
+       <label for="attractive">What would make downtown Silver City more appealing? (Check all that apply)</label><br>
+        <input type="checkbox" name="attractive" value="restaurant">More restaurants<br>
+      <input type="checkbox" name="attractive" value="specialty">More specialty stores<br>
+      <input type="checkbox" name="attractive" value="tourist">More tourist type shops<br>
+      <input type="checkbox" name="attractive" value="business">More professional businesses<br>
+      <input type="checkbox" name="attractive" value="parking">Additional parking<br>
+      <input type="checkbox" name="attractive" value="bus">A bus route from nearby hotels or popular tourist spots<br>
+      <input type="checkbox" name="attractive" value="facelift">Give the place a facelift<br>
+      <input type="checkbox" name="attractive" value="events">Concerts and events held downtown<br>
+      <input type="checkbox" name="attractive" value="locals">Fewer tourists, and more places for locals<br>
+        </div> 
+        <br><br>
+<div id="comments">
+      <label for="comments">What additional comments or suggestions do you have?</label><br>
+    <textarea name="comments" rows="5" cols="46" placeholder="Enter your suggestions here.">
+</textarea>
+        </div>
+        <br><br>
+<div id="email">
+        <label for="email"> Email Address (if you would like to receive additional information)</label><br>
+    <input type="email" name="mail"><br>
+        </div><br><br>
+<div id="submit">
+        <input type="submit" value="submit">        
+        </div>
+    </form>
+</body>
+</html>

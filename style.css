@@ -1,0 +1,22 @@
+h2 {
+    border-bottom: solid;
+    border-top: solid;
+    text-align: center;
+    
+}
+
+body {
+    background: #84efee;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+form {
+    background-color: whitesmoke;
+    padding: 20px
+}
+
+label {
+    font-weight: bold
+}
